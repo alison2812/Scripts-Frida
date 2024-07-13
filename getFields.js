@@ -7,7 +7,6 @@
 //colors
 var green = "\x1b[1;32m";
 var red = "\x1b[1;31m";
-var purple = "\x1b[1;35m";
 var yellow = "\x1b[1;33m";
 var reset = "\x1b[0m";
 
@@ -20,13 +19,13 @@ if(Java.available){
   
   for(let i = 0;i < fields.length; i++){
     //filter results
-  //  if(fields[i].getType().getSimpleName() == "DatabaseReference"){ //start
+  //  if(fields[i].getType().getSimpleName() == "DatabaseReference"){
      console.log("\n\tField:", red, fields[i].getName(), reset);
      console.log("\tType:", yellow, fields[i].getType().getSimpleName(), reset);
      console.log("\tModifier:", green, getModifier(fields[i].getModifiers()), reset);
      console.log("\tPrimitive:", green, fields[i].getType().isPrimitive(), reset);
      console.log("\tAccessible:", green, fields[i].isAccessible(), reset);
- //  } //end if
+ //  }
   }
   
  })}
