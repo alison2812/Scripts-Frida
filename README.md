@@ -1,5 +1,5 @@
 # Scripts-Frida
-Aqui estão alguns scripts Frida criados por mim para ajudar você na análise e segurança de aplicativos. Nada profissional, mais útil.
+Aqui estão alguns scripts Frida que desenvolvi para auxiliar na análise e segurança de aplicativos. Embora não sejam profissionais, são ferramentas úteis para quem busca aprender e explorar.
 
 # Scripts
 **equals:**
