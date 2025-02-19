@@ -13,6 +13,7 @@ var reset = "\x1b[0m";
 //get fields of a given class.
 if(Java.available){
  Java.perform(() => {
+  //your class here
   const classe = Java.use("com.google.firebase.FirebaseOptions");
   
   let fields = classe.class.getDeclaredFields();
