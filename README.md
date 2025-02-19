@@ -3,10 +3,13 @@ Aqui estão alguns scripts Frida criados por mim para ajudar você na análise e
 
 # Scripts
 **equals:**
-Este script Frida, permite interceptar e monitorar o método equals da classe java.lang.String .
+Este script Frida permite interceptar e monitorar o método equals da classe java/lang/String.
 
 **getFields:**
 Inspecione os campos de uma classe específica em aplicativos Android. Ele lista os campos da classe, exibindo detalhes como nome do campo, tipo, modificadores, se é primitivo e acessibilidade.
 
 **getMethods:**
 Listar todos os métodos declarados de uma classe específica em um aplicativo Android. Ao utilizar este script, você pode identificar os métodos, seus modificadores, tipos de retorno, e outras informações importantes.
+
+**libc:**
+Este script Frida intercepta e monitora chamadas de sistema nativas da libc.so em Android, incluindo open, fopen, access, sys_openat, strstr, lstat, strcmp e snprintf.
